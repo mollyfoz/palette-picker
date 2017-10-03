@@ -28,9 +28,15 @@ header {
 
 .color-card {
   border: 1px solid white;
+  background-image:url('./assets/lock.svg');
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
   height: 200px;
   width: 200px;
   margin: 20px 10px;
+  text-align: center;
 }
 
 .generate-new-btn {
@@ -42,6 +48,7 @@ header {
   font-size: 24px;
   padding: 10px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .palette-form {
